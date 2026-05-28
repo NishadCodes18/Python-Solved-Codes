@@ -1,5 +1,4 @@
-#list operation
-#4.1
+1.
 legends = ["Messi", "Ronaldo", "Neymar"]
 print("Initial Legends:", legends)
 
@@ -20,7 +19,7 @@ del legends
 print("List cleared successfully.")
 
 
-#4.2
+2.
 jn=[4,7,10,9]
 even_jn=[]
 for i in jn:
@@ -30,7 +29,7 @@ for i in jn:
 print("Even Jersey Numbers:",even_jn)
 
 
-#4.3
+3.
 jn=[1,2,3,4,7,10]
 jn2=[4,7,10]
 common=[]

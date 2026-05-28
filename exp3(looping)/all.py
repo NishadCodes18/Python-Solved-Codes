@@ -1,5 +1,4 @@
-#3.1
-a=int(input("Enter a number to reverse: "))
+1.a=int(input("Enter a number to reverse: "))
 rn=0
 while a!=0:
     d=a%10
@@ -8,15 +7,14 @@ while a!=0:
 print(rn)
 
 
-#3.2
+2.
 num=2
 while num<=100:
     print(num)
     num+=2
 
 
-#3.3
-# star pattern middle one
+3.
 n = 3
 for i in range(1, n + 1):
     print(' ' * (n - i) + '*' * (2 * i - 1))
@@ -24,8 +22,6 @@ for i in range(n - 1, 0, -1):
     print(' ' * (n - i) + '*' * (2 * i - 1))
 
 
-
-#3.4
-#star pattern start
+4,
 for i in range(1, 4):
     print('*' * i)

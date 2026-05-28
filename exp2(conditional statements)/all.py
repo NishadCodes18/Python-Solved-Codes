@@ -1,4 +1,4 @@
-#2.1
+1.
 year=(int(input("Enter year:")))
 if(year%400==0 or (year%4==0 and year%100!=0)):
   print(year,"is a leap year")
@@ -6,7 +6,7 @@ else:
   print(year,"is not a leap year")
 
 
-#2.2
+2.
 marks = []
 n=int(input("Enter number of subjects:"))
 for i in range(n):
@@ -29,7 +29,7 @@ print("Average:", avg)
 print("Grade:", grade)
 
 
-#2.3
+3.
 a= []
 for i in range(3):
     m=int(input(f"Enter Three Numbers, number {i+1}:"))
